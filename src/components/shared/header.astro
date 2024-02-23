@@ -1,0 +1,24 @@
+---
+import { Image } from "astro:assets";
+import image from "../../../public/Cor.png"
+var size = 120
+---
+
+
+<style>
+    .paddingcustom{
+        padding: 20px 100px;
+    }
+</style>
+
+<header class="fixed flex bg-[#6370ff] top-0 left-0 w-full justify-between items-center z-10 paddingcustom">
+    <img src={image.src} class="h-32 w-48" alt="Logo">
+
+    <nav class="flex gap-x-4 font-bold">
+        <a href="/">Home</a>
+        <a href="/news" class="text-yellow-200">News</a>
+        <a href="/github">Github</a>
+    </nav>
+
+
+</header>
