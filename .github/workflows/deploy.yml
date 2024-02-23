@@ -19,7 +19,7 @@ jobs:
         run: bun install
 
       - name: Build Astro site with bun
-        run: bun build
+        run: bun run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
